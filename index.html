@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" rel="stylesheet"/>
+    <link href="src/output.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="block py-4">
+                        <img src="src/img/logo_AR2.png" alt="logo_AR" class="w-12 h-auto">
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class=" nav-link text-base text-black py-2 mx-8 flex group-hover:text-cyan-900">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="nav-link text-base text-black py-2 mx-8 flex group-hover:text-cyan-900">About Me</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio" class="nav-link text-base text-black py-2 mx-8 flex group-hover:text-cyan-800">Portofolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="nav-link text-base text-black py-2 mx-8 flex group-hover:text-cyan-800">Contact</a>
+                            </li>
+                            <li class="group">
+                                <a href="assets/CV_I Putu Ari Pramana Putra.pdf" class="nav-link text-base text-black py-2 mx-8 flex group-hover:text-cyan-800">Curriculum Vitae (VC)</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold  md:text-xl">Hi, I'm<span class="block font-bold text-4xl mt-1 lg:text-5xl bg-linear-to-r from-cyan-700 to-orange-300 bg-clip-text text-transparent">I Putu Ari Pramana Putra</span></h1>
+                    <h2 class="font-medium text-black text-lg mb-3 mt-4">Front-end Web Developer 👨🏼‍💻</h2>
+                    <p class="font-medium text-slate-700 mb-6 leading-relaxed">A Frontend Enthusiast from the Information Technology Department. I am dedicated to creating seamless digital experiences and captivating visual designs, with a core focus on ReactJS and responsive design principles.</p>
+                    <div class="flex items-center gap-4 mb-10 ">
+                        <span class="font-medium text-slate-500 text-sm flex items-center gap-1">🏝️ Travel</span>
+                        <span class="font-medium text-slate-500 text-sm flex items-center gap-1">🏋🏼‍♂️ GYM Enthusiast</span>
+                        <span class="font-medium text-slate-500 text-sm flex items-center gap-1">🎸 Acoustic Guitar</span>
+                        <span class="font-medium text-slate-500 text-sm flex items-center gap-1">👨🏼‍🎤 Sing</span>
+                    </div>
+                    <div class="flex flex-wrap item items-center gap-6 ">
+                    <a href="#portofolio" class="text-base font-semibold text-white bg-cyan-800 py-2 px-4 rounded-2xl hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">View Projects</a>
+                    <a href="assets/CV_I Putu Ari Pramana Putra.pdf" download="CV_I_PUTU_ARI_PRAMANA_PUTRA" class="group flex items-center justify-center gap-2 font-semibold text-slate-700 border border-b-cyan-900 py-2 px-6 rounded-2xl hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">
+                        <span>Download CV</span>
+                        <video autoplay loop muted playsinline class="w-6 h-6">
+                            <source src="src/video/unduh_icon.mp4" type="video/mp4">
+                        </video>
+                    </a>
+                    <a href="#contact" class="text-base font-semibold text-slate-700 border border-b-cyan-900 py-2 px-4 rounded-2xl hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Get in touch <i class="ri-arrow-right-long-line"></i></a>
+                    </div>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-9 lg:right-0">
+                        <img src="/src/img/werty.png" alt="Ari Pramana"
+                        class="max-w-full mx-auto">
+                        <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
+                            <img src="src/img/4131144039.png" alt="" width="400" height="400" class="scale-150 mt-4">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32 relative overflow-hidden">
+        <div class="absolute inset-0 -z-10 opacity-25"><img src="src/img/bg-about-me.png" class="w-full h-full object-cover" alt="bg_about_me"></div>
+        <div class="container relative z-10">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold text-cyan-900 text-2xl mb-3">About Me</h4>
+                    <h2 class="font-bold text-black text-3xl mb-5 max-w-md text">Student of ITB STIKOM Bali 2022 👨🏼‍💼</h2>
+                    <p class="font-medium text-base text-slate-500 max-w-xl text-justify">I am a proactive Information Technology student at ITB STIKOM Bali, currently in my fourth semester. My academic journey has sparked a deep-seated passion for Front-end Web Development, where I enjoy the challenge of turning complex logic into intuitive, user-friendly digital interfaces. Over the past year, I have dedicated myself to mastering modern tools like ReactJS and Tailwind CSS. I am constantly experimenting with responsive design principles to ensure that every digital experience I create is not only functional but also aesthetically captivating across all devices.</p>
+                </div>
+                <div class="w-full px-4 lg:w-1/2">
+                    <h3 class="font-semibold text-black text-2xl mb-4 lg:text-3xl lg:pt-10">Let's Build Something Together!</h3>
+                    <p class="font-medium text-base text-slate-500 max-w-xl text-justify">I believe that the best digital solutions are born from a blend of technical precision and creative collaboration. Beyond the world of syntax and debugging, I find balance through my love for the acoustic guitar and a disciplined routine at the gym. These hobbies keep my mindset sharp, creative, and resilient—qualities that I bring into every coding project. I am currently looking for opportunities to collaborate on innovative web projects where I can contribute my front-end skills while continuing to grow alongside other tech enthusiasts. Let’s connect and turn your vision into a high-quality digital reality!</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portofolio Section Start -->
+    <section id="portofolio" class="pt-36 pb-16 bg-gray-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-2xl text-cyan-900 mb-2">Portofolio</h4>
+                    <h2 class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl">My Artifacts</h2>
+                    <p class="font-medium text-md text-slate-500 md:text-lg">A curated collection of my digital journey, featuring a mix of <strong>Project Based</strong> and <strong>Case Based</strong> assignments. Each artifact represents a milestone in my growth as an Information Technology student and my passion for building seamless web experiences.</p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden h-60">
+                        <img src="src/img/Portofolio/wjr.png" alt="WRJ Landing Page" width="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-black text-xl mt-5 mb-3">Sistem Informasi Warung Jak Rame (WJR) Berbasis Website</h3>
+                        <p class="font-medium text-base text-slate-500">A responsive landing page built for a local culinary business to enhance its digital presence. This project focuses on implementing a clean semantic HTML structure and advanced CSS layouting to ensure a seamless user experience across various devices.</p>
+                    </div>
+                    <button onclick="showReflection(
+                        'Sistem Informasi Warung Jak Rame (WJR) Berbasis Website',
+                        'src/img/Portofolio/wjr.png',
+                        'Project Based', 
+                        'Front-End Developer', 
+                        'CSS, HTML5, JavaScript, MySQL Workbench',
+                        'I developed a responsive landing page for a local culinary business called Warung Jak Rame. This project was implemented using HTML5, JavaScript, and MySQL Workbench with a focus on clean and semantic code architecture. The goal was to create an informative and visually appealing digital profile to increase the business`s visibility in the digital age.', 
+                        'Through this project, I successfully applied the Separation of Concerns principle by organizing visual styles through external stylesheets to ensure interface consistency. I learned that image asset management and grid system optimization are crucial in influencing page load time, which directly impacts user experience.', 
+                        'I plan to transform this static website into a more interactive application by integrating the Google Maps API for location features. In addition, I will implement client-side validation on the order form to ensure data integrity before it is processed on the server.'
+                    )" class="text-sm font-semibold text-white bg-cyan-800 py-2 px-4 mt-3 rounded-lg hover:opacity-80 duration-500">
+                        View Details & Reflection
+                    </button>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden h-60">
+                        <img src="src/img/Portofolio/admin-perpustakaan.png" alt="Dashboard Admin Perpustakaan Angkasa Cipta" width="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-black text-xl mt-5 mb-3">Admin Perpustakaan Angkasa Cipta Berbasis Website</h3>
+                        <p class="font-medium text-base text-slate-500">A web-based library management system designed to automate book circulation and member data handling. Developed using PHP and MySQL, this project demonstrates robust back-end logic for managing complex database queries and real-time data processing.</p>
+                    </div>
+                    <button onclick="showReflection(
+                        'Admin Perpustakaan Angkasa Cipta Berbasis Website',
+                        'src/img/Portofolio/admin-perpustakaan.png',
+                        'Project Based', 
+                        'Front-End & Back-End Developer', 
+                        'CSS, HTML5, PHP, MySQL Workbench', 
+                        'This project involves the development of a web-based library management system using PHP and MySQL to automate the book circulation process. This artifact is designed to handle core administrative functions such as book data collection, member management, and real-time recording of loans and returns.', 
+                        'This development process tested my ability to develop robust back-end logic to handle complex database queries. I realized that system scalability is highly dependent on an integrated database structure and the use of relative units in interface design to remain functional across different devices.', 
+                        'Going forward, I will explore the use of CSS frameworks such as Tailwind CSS to improve the efficiency of the previously repetitive styling process. In addition, I intend to implement a data encryption system to improve the security of sensitive information belonging to library members.'
+                    )" class="text-sm font-semibold text-white bg-cyan-800 py-2 px-4 mt-3 rounded-lg hover:opacity-80 duration-500">
+                        View Details & Reflection
+                    </button>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden h-60">
+                        <img src="src/img/Portofolio/apotek-klinik-x.png" alt="Dashboard Apotek Kikinik-X" width="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-black text-xl mt-5 mb-3">Sistem Informasi Klinik-X Berbasis Website</h3>
+                        <p class="font-medium text-base text-slate-500">A comprehensive system analysis and design for a pharmacy information system. This project involved deep requirement gathering through observation and research to create an intuitive interface that streamlines the distribution of medicine and patient data.</p>
+                    </div>
+                    <button onclick="showReflection(
+                        'Sistem Informasi Klinik-X Berbasis Website',
+                        'src/img/Portofolio/apotek-klinik-x.png',
+                        'Case Based', 
+                        'Researcher & UI/UX Designer', 
+                        'Draw.io, Canva, Google Form, Microsoft Word, Mendeley', 
+                        'I conducted an analysis and design of a pharmacy information system at Clinic-X using data collection methods through observation and literature study. The resulting artifacts include documentation of functional requirements specifications (Production, Finance, and Warehouse Modules) and user interface designs using Canva.', 
+                        'This case study helped me understand that a technological solution must be based on real operational problems, such as manual recording constraints that hinder decision making. Identifying user requirements is a crucial step in ensuring that the prototype system built is truly relevant to the needs of the manufacturing or healthcare industry.', 
+                        'I will use the results of this research as a basis for designing a mobile application prototype that is more accessible to patients. I will also explore further usability testing methods to ensure that every element of the interface is intuitive for users from various educational backgrounds.',
+                        'assets/Analisa dan Perancangan Sistem Informasi Pada Apotek Klinik X Berbasis Website_DPPL.pdf'
+                    )" class="text-sm font-semibold text-white bg-cyan-800 py-2 px-4 mt-3 rounded-lg hover:opacity-80 duration-500">
+                        View Details & Reflection
+                    </button>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden h-60">
+                        <img src="src/img/Portofolio/web-pt-cik-konfeksi.png" alt="Dashboard Web PT. CIK KONFEKSI" width="w-full h-full object-cover">
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-black text-xl mt-5 mb-3">Sistem Enterprise Resource Planning (ERP) - Studi Kasus: PT. CIK KONFEKSI</h3>
+                        <p class="font-medium text-base text-slate-500">An integrated Enterprise Resource Planning prototype designed using the Prototyping development method. This study focuses on synchronizing production, warehouse, and financial modules, validated by a System Usability Scale (SUS) score of 77.1.</p>
+                    </div>
+                    <button onclick="showReflection(
+                        'Sistem Enterprise Resource Planning (ERP) - Stusi Kasus: PT. CIK KONFEKSI',
+                        'src/img/Portofolio/web-pt-cik-konfeksi.png',
+                        'Case Based', 
+                        'Researcher & UI/UX Designer', 
+                        'Draw.io, Figma, Google Form, Microsoft Word, Mendeley', 
+                        'I designed a prototype Enterprise Resource Planning (ERP) system for PT. Cik Konfeksi using an iterative prototyping development method. This system includes integrated modules for production, warehousing, finance, and marketing to support the automation of business processes that were previously run separately.', 
+                        'A significant moment in this project was when conducting feasibility testing using the System Usability Scale (SUS) method, which resulted in a score of 77.1. This result proves that the system prototype is in the ``Acceptable`` category and ranks ``Good``, which means that my design has met the usability standards for professional users.', 
+                        'This experience has encouraged me to deepen my understanding of cloud-based technology integration in order to safely expand system access. I will also continue to hone my system modeling skills using UML tools (Use Case and Activity Diagrams) to represent more complex software logic in the future.',
+                        'assets/SISTEM ERP DALAM MENINGKATKAN EFISIENSI PERUSAHAAN MANUFAKTUR DI INDONESIA STUDI KASUS PT. CIK KONFEKSI.pdf'
+                    )" class="text-sm font-semibold text-white bg-cyan-800 py-2 px-4 mt-3 rounded-lg hover:opacity-80 duration-500">
+                        View Details & Reflection
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portofolio Section End -->
+
+    <!-- Client Section Start -->
+    <!-- <section id="clients" class="pt-36 pb-32 bg-slate-700">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-cyan-700 mb-2">Clients</h4>
+                    <h2 class="font-bold text-3xl mb-4 text-white sm:text-4xl lg:text-5xl">Clients Who Worked With Me</h2>
+                    <p class="font-medium text-md text-slate-500 md:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla a laboriosam repellendus eaque excepturi earum atque recusandae, aperiam rerum dignissimos labore dolorem impedit laborum, esse, fugit quidem repudiandae voluptatum.</p>
+                </div>
+            </div>
+            <div class="w-full px-4">
+                <div class="flex flex-wrap items-center justify-center">
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="/src/img/Clients/Microsoft_logo_(2012).svg.png" alt="Microsoft">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="/src/img/Clients/Gojek_logo_2022.svg.png" alt="Gojek_logo_2022">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="/src/img/Clients/Google_2015_logo.svg.webp" alt="Google_2015_logo">
+                    </a>
+                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="/src/img/Clients/Lenovo_logo_2015.svg.png" alt="Lenovo_logo_2015">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Client Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="pt-36 pb-32">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-2xl text-cyan-900 mb-2">Contact</h4>
+                    <h2 class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl">Get in Touch!</h2>
+                    <p class="font-medium text-md text-slate-500 md:text-lg">Have a project in mind or want to collaborate? Feel free to drop a message, and I'll get back to you as soon as possible.</p>
+                </div>
+            </div>
+            <form id="contact-form">
+                <div class="w-full lg:w-2/3 lg:mx-auto">
+                    <div class="w-full px-4 mb-8">
+                        <label for="name" class="text-base font-bold text-cyan-950">Name</label>
+                        <input type="text" id="name" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-cyan-700 focus:ring-1 focus:border-b-blue-400">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="email" class="text-base font-bold text-cyan-950">Email</label>
+                        <input type="email" id="email" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-cyan-700 focus:ring-1 focus:border-b-blue-400">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="message" class="text-base font-bold text-cyan-950">Message</label>
+                        <textarea type="text" id="message" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-cyan-700 focus:ring-1 focus:border-b-blue-400"></textarea>
+                    </div>
+                    <div class="w-full px-4">
+                        <button class="text-base font-semibold text-white bg-cyan-800 py-3 px-8 rounded-full w-full hover:opacity-50 hover:shadow-lg transition duration-500">Send</button>
+                    </div>
+                </div>
+            </form>       
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="bg-gray-900 pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                    <div>
+                        <a href="#home" class="block py-4">
+                            <img src="src/img/logo_AR2.png" alt="logo_AR" class="w-12 h-auto">
+                        </a>
+                    </div>
+                    <h3 class="font-bold text-2xl mb-2">Contact Me</h3>
+                    <p>📩 aripramana046@gmail.com (1)</p>
+                    <p>📩 ariputra3127@outlook.com (2)</p>
+                    <p>🗺️ Jl. Dam Peraupan, BR. Umadesa, Peguyangan Kaja, Denpasar Utara, Bali, Indonesia.</p>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Tech Stack</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <p class="inline-block text-base mb-3">Tailwind CSS</p>
+                        </li>
+                        <li>
+                            <p class="inline-block text-base mb-3">PHP</p>
+                        </li>
+                        <li>
+                            <p class="inline-block text-base mb-3">Laravel</p>
+                        </li>
+                        <li>
+                            <p class="inline-block text-base mb-3">Microsoft Office</p>
+                        </li>
+                        <li>
+                            <p class="inline-block text-base mb-3">Figma</p>
+                        </li>
+                        <li>
+                            <p class="inline-block text-base mb-3">Canva</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Content Link</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#home" class="inline-block text-base hover:text-cyan-500 mb-3">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="inline-block text-base hover:text-cyan-500 mb-3">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#portofolio" class="inline-block text-base hover:text-cyan-500 mb-3">Portofolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="inline-block text-base hover:text-cyan-500 mb-3">Contact</a>
+                        </li>
+                        <li>
+                            <a href="assets/CV_I Putu Ari Pramana Putra.pdf" class="inline-block text-base hover:text-cyan-500 mb-3">Curriculum Vitae (CV)</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full pt-10 border-t border-slate-700">
+                <div class="flex items-center justify-center mb-5">
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/ar1prmna_" target="_blank" class="w-9 h-9 mr-3 mt-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-neutral-400 hover:bg-cyan-950 text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>
+                        </a>
+                        <!-- Youtube -->
+                        <a href="https://youtube.com/@12aripramana30?si=yqWMlid7_MQqOjEs" target="_blank" class="w-9 h-9 mr-3 mt-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-neutral-400 hover:bg-cyan-950 text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                        </a>
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/ari-pramana-733a31288/" target="_blank" class="w-9 h-9 mr-3 mt-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-neutral-400 hover:bg-cyan-950 text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" class="fill-current" viewBox="0 0 50 50">
+                            <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path></svg>
+                        </a>
+                        <!-- TikTok -->
+                        <a href="#" target="_blank" class="w-9 h-9 mr-3 mt-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-neutral-400 hover:bg-cyan-950 text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TikTok</title><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+                        </a>
+                        <!-- Twitter (X) -->
+                        <a href="#" target="_blank" class="w-9 h-9 mr-3 mt-3 rounded-full flex justify-center items-center border border-slate-300 hover:border-neutral-400 hover:bg-cyan-950 text-white">
+                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/></svg>
+                        </a>
+                </div>
+                <p class="font-medium text-sm text-slate-500 text-center">Copyright © 2025 AR. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="dist/js/script.js"></script>
+</body>
+</html> 
+

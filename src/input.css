@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+
+@theme{
+    --color-hijau-tua: oklch(60% 0.118 184.704);
+    --color-hitam-pudar: oklch(27.9% 0.041 260.031);
+
+    --breakpoint-2xl: 1320px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@utility container{
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+
+
+.navbar-fixed{
+    @apply fixed z-[9999] bg-white/70 backdrop-blur-sm;
+    box-shadow: inset 0 -1px 0 0 rgba(139, 132, 132, 0.2);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.hamburger-line{
+    @apply w-[30px] h-0.5 my-2 block bg-black;
+}
+
+.hamburger-active > span:nth-child(1){
+    @apply rotate-20;
+}
+
+.hamburger-active > span:nth-child(3){
+    @apply scale-2;
+}
+
+.hamburger-active > span:nth-child(2){
+    @apply -rotate-20;
+}
+
+.nav-active {
+    @apply font-bold text-cyan-900;
+}
+
